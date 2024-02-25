@@ -1,10 +1,12 @@
+/* Estilo para el cuerpo del documento HTML */
 body {
   margin: 0;
   padding: 0;
-  background: url('./resources/fondo1.jpg') center/cover no-repeat;
-  height: 100vh;
+  background: url('./resources/fondo1.jpg') center/cover no-repeat; 
+  height: 100vh;  
 }
 
+/* Estilo para el contenedor inicial y final */
 .divinicial, .divfinal {
   text-align: center;
   background-color: rgb(245, 245, 177);
@@ -13,28 +15,34 @@ body {
   margin: 0 auto;
 }
 
+/* Estilo para la imagen del encabezado */
 .imagen {
   width: 20%;
   height: 20%;
 }
 
+/* Estilo para el enlace */
 a {
   display: block;
   font-size: larger;
 }
 
+/* Estilo para el enlace cuando se pasa el mouse sobre él */
 a:hover {
   color: red;
 }
 
+/* Estilo para el elemento tipo h1 */
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Estilo para el elemento tipo párrafo */
 p {
   font-size: larger;
 }
 
+/* Estilo para la sección donde van los botones */
 .botones {
   text-align: center;
   display: grid;
@@ -48,6 +56,7 @@ p {
   padding: 10px;
 }
 
+/* Estilo para los botones */
 .botones button {
   width: 50px;
   height: 50px;
@@ -59,16 +68,19 @@ p {
   color: #fff;
 }
 
+/* Estilo para los botones cuando se pasa el mouse sobre ellos */
 .botones button:hover {
   background-color: forestgreen;
 }
 
+/* Estilo para la sección donde va el resultado */
 .resultado {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
 
+/* Estilo para el campo de entrada de texto */
 .entrada {
   text-align: right;
   font-size: 18px;
