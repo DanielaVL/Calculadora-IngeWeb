@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./resources/fondo1.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+
+.divinicial, .divfinal {
+  text-align: center;
+  background-color: rgb(245, 245, 177);
+  padding: 10px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.imagen {
+  width: 20%;
+  height: 20%;
+}
+
+a {
+  display: block;
+  font-size: larger;
+}
+
+a:hover {
+  color: red;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: larger;
+}
+
+.botones {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: 240px;
+  margin: auto;
+  padding: 10px;
+}
+
+.botones button {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.botones button:hover {
+  background-color: forestgreen;
+}
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.entrada {
+  text-align: right;
+  font-size: 18px;
+  background-color: rgb(172, 138, 189);
+  height: 25px;
+  padding: 5px;
+}
