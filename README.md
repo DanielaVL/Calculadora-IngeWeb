@@ -36,7 +36,3 @@ Este proyecto es una calculadora web que permite realizar operaciones básicas c
 
 - **JavaScript:**
   - El archivo `script.js` contiene la lógica para las operaciones de la calculadora.
-
-## Contribuciones
-
-Siéntete libre de contribuir al proyecto abriendo problemas o enviando solicitudes de mejora. ¡Toda contribución es bienvenida!
