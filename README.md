@@ -15,18 +15,18 @@ Este proyecto es una calculadora web que permite realizar operaciones básicas c
 
    - Luego, descomprime el archivo ZIP descargado en tu máquina local.
 
-2. **Abrir en el Navegador:**
+2. **Abrir en el navegador:**
    - Abre el archivo `index.html` en tu navegador web favorito para utilizar la calculadora.
 
 ## Funcionalidades
 
-- **Operaciones Básicas:**
+- **Operaciones básicas:**
   - La calculadora puede realizar operaciones de suma, resta, multiplicación y división.
 
-- **Operaciones Encadenadas:**
+- **Operaciones encadenadas:**
   - Puedes encadenar múltiples operaciones para realizar cálculos complejos.
 
-## Estructura del Proyecto
+## Estructura del proyecto
 
 - **HTML:**
   - El archivo `index.html` contiene la estructura básica de la página web.
